@@ -1,1 +1,121 @@
-# kriss1
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width",initial-scale>
+        <title>portfolio</title>
+
+
+
+        <style>
+
+            body *{
+                font-family: 'Courier New', Courier, monospace;
+                margin: 0%; 
+                padding: 0%;
+                }
+
+
+            nav{
+                display: flex;
+                justify-content: space-between;
+                padding-inline: 15%;
+                font-size: 20px;
+                padding-block: 20px;
+                font-weight: bold;
+            }
+
+            nav ul{
+                display:flex ;
+                list-style: none ;
+                gap: 20px;
+            }
+            nav ul li{
+                background-color: black;
+                color: pink;
+                font-weight: bolder;
+                border-radius: 60%;
+                width: 50%;
+                height: 50%;
+            }
+            nav button {
+            background-color: black;
+            color:pink;
+            font-weight: bolder;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            }
+            #hero-section {
+            display: flex;
+            padding-inline: 15%;
+            padding-top: 100px;
+            align-items: center;
+            }
+            #hero-section img {
+            width: 300px;
+           }
+            #hero-section h1 {
+            font-size: 60px;
+            }
+            #hero-section button {
+            background-color: black;
+            color: pink;
+            font-weight: bolder;
+            padding-inline: 20px;
+            padding-block: 10px;
+            }
+            #hero-section a {
+            padding-inline: 20px;
+        }
+        @media only screen and (max-width:600px){
+             #hero-section{
+                display: block;
+                padding-block: 20PX;
+             }
+             nav ul{
+                display: none;
+             }
+              #hero-section H1{
+                font-size: 30PX;
+              }
+        }
+
+        </style>
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>project</li>
+                <li>article</li>
+            </ul>
+    
+    
+            <button>CB</button>
+    
+    
+            <ul>
+                <li><i style="color: lightblue; " class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-giiub"></i></li>
+                <li><i style="color: blue; " class="fa-brands fa-linkedin"></i></li>
+                <li><i style="color: red; " class="fa-brands fa-pinterest"></i></li>
+                <li><i style="color: pink; " class="fa-solid fa-bowling-ball"></i></li>
+                <li><i class="fa-solid fa-moon"></i></li>
+            </ul>
+        </nav>
+    </tr>
+    <div id="hero-section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNkRtH3pO38GbFGh5lwzQSULVyE1ugzmNDrw&s" alt="">
+        <div>
+            <h1>Turning Vision Into <br> Reality With Code <br> And Design</h1>
+            <p>I'm a front-end developer specializing in building ( and occasionally designing ) exceptional digital experiences.</p>
+            <button>Resume <i class="fa-solid fa-up-right-from-square"></i></button>
+            <a href="">Contact</a>
+        </div>
+    </div>
+    </body>
+
+</html>
